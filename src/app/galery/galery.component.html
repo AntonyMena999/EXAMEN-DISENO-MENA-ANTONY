@@ -1,0 +1,35 @@
+<h1>VISUALIZA EL PRODUCTO QUE TU DESEAS A DETALLE!</h1>
+<br>
+<div class="flex justify-content-center flex-wrap gap-3 mb-4" style="flex-direction: row;">
+    
+    <div class="card flex justify-content-center">
+        <p-image src="https://s.13.cl/sites/default/files/inline-images/2024-10/Pan%20integral.jpg" alt="Image" width="250" [preview]="true" />
+    </div>
+    <div class="card flex justify-content-center">
+        <p-image src="https://media.diariouno.com.ar/p/d63d8e531faede88cb8fbf6f2e358cd3/adjuntos/298/imagenes/008/797/0008797473/1200x0/smart/torta-balcarce-recetasjpg.jpg" [preview]="true" alt="Image" width="250">
+            <ng-template pTemplate="indicator">
+                <i class="pi pi-check"></i>
+            </ng-template>
+        </p-image>
+    </div>
+    <div class="card flex justify-content-center">
+        <p-image src="https://selecciones.com.mx/wp-content/uploads/2021/07/receta-de-galletas-con-chispas-de-chocolate.jpg" previewImageSrc="https://selecciones.com.mx/wp-content/uploads/2021/07/receta-de-galletas-con-chispas-de-chocolate.jpg" alt="Image" width="250" [preview]="true" />
+    </div>
+</div>
+<br>
+<br>
+<br>
+<h1>LO MÁS VENDIDO!</h1>
+<div class="card flex justify-content-center p-3">
+  <p-galleria [responsiveOptions]="responsiveOptions" [value]="images" (someEvent)="onValueChange($event)"
+      [containerStyle]="{ 'max-width': '640px' }" [numVisible]="5">
+      <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" style="width: 100%;" />
+      </ng-template>
+      <ng-template pTemplate="thumbnail" let-item>
+          <div class="grid grid-nogutter justify-content-center">
+              <img [src]="item.thumbnailImageSrc" />
+          </div>
+      </ng-template>
+  </p-galleria>
+</div>

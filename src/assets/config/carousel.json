@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "id": "1000",
+            "code": "f230fh0g3",
+            "name": "Pan Integral",
+            "description": "Product Description",
+            "image": "https://s.13.cl/sites/default/files/inline-images/2024-10/Pan%20integral.jpg",
+            "price": 0.15,
+            "category": "Accessories",
+            "quantity": 24,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "1001",
+            "code": "nvklal433",
+            "name": "Torta Balcarce",
+            "description": "Product Description",
+            "image": "https://media.diariouno.com.ar/p/d63d8e531faede88cb8fbf6f2e358cd3/adjuntos/298/imagenes/008/797/0008797473/1200x0/smart/torta-balcarce-recetasjpg.jpg",
+            "price": 2,
+            "category": "Accessories",
+            "quantity": 61,
+            "inventoryStatus": "OUTOFSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "1002",
+            "code": "zz21cz3c1",
+            "name": "Galletas de Chocolate Chips",
+            "description": "Product Description",
+            "image": "https://selecciones.com.mx/wp-content/uploads/2021/07/receta-de-galletas-con-chispas-de-chocolate.jpg",
+            "price": 1,
+            "category": "Fitness",
+            "quantity": 2,
+            "inventoryStatus": "LOWSTOCK",
+            "rating": 3
+        },
+        {
+            "id": "1003",
+            "code": "244wgerg2",
+            "name": "Café expreso",
+            "description": "Product Description",
+            "image": "https://media.licdn.com/dms/image/v2/D4E12AQHn7_GPWXj8-A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1709821682202?e=2147483647&v=beta&t=wiU8azHMMXFFNhhJik2-yq6r0o788hJ0fcyHGOtVsj0",
+            "price": 3,
+            "category": "Clothing",
+            "quantity": 25,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "1004",
+            "code": "h456wer53",
+            "name": "Coca Cola",
+            "description": "Product Description",
+            "image": "https://forbes.pe/_next/image?url=https%3A%2F%2Fcdn.forbes.pe%2F2023%2F07%2Fjpg_20230726_093438_0000.jpg%3Fv%3D1280720&w=1920&q=75",
+            "price": 1,
+            "category": "Accessories",
+            "quantity": 73,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "1005",
+            "code": "av2231fwg",
+            "name": "Sprite",
+            "description": "Product Description",
+            "image": "https://ambienteplastico.com/wp-content/uploads/2021/07/foto_sprite_220721.jpg",
+            "price": 1,
+            "category": "Accessories",
+            "quantity": 0,
+            "inventoryStatus": "OUTOFSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "1006",
+            "code": "bib36pfvm",
+            "name": "Pan Blanco",
+            "description": "Product Description",
+            "image": "https://panaderiaartesadeagustin.com/wp-content/uploads/2018/12/Pan-blanco-de-panaderia-en-Sanxenxo-1.jpg",
+            "price": 0.14,
+            "category": "Accessories",
+            "quantity": 5,
+            "inventoryStatus": "LOWSTOCK",
+            "rating": 3
+        },
+        {
+            "id": "1007",
+            "code": "mbvjkgip5",
+            "name": "Jugo de naranja",
+            "description": "Product Description",
+            "image": "https://www.semana.com/resizer/v2/RPBVTOQHRBBMNEUVTJ5UORO2GA.jpg?auth=b0079325d5b708ef6947787880ad6b1a4c5ba4cff369981d52ead2f3bf956585&smart=true&quality=75&width=1280&height=720",
+            "price": 0.75,
+            "category": "Accessories",
+            "quantity": 23,
+            "inventoryStatus": "INSTOCK",
+            "rating": 5
+        },
+        {
+            "id": "1008",
+            "code": "vbb124btr",
+            "name": "Jugo de tomate de árbol",
+            "description": "Product Description",
+            "image": "https://www.semana.com/resizer/v2/Z3TSZVFV25C73GFYU7EJCYJT7I.jpg?auth=4170f0f432b6e1e5b4b276dc558aa7e5db96bbb968734e0a2e1ad2d959f34521&smart=true&quality=75&width=1280&height=720",
+            "price": 0.75,
+            "category": "Electronics",
+            "quantity": 2,
+            "inventoryStatus": "LOWSTOCK",
+            "rating": 4
+        },
+        {
+            "id": "1009",
+            "code": "cm230f032",
+            "name": "Pastel de chocolate",
+            "description": "Product Description",
+            "image": "https://rexal.com/wp-content/uploads/2021/09/01-REXAL-1024X576-1.jpg",
+            "price": 5,
+            "category": "Electronics",
+            "quantity": 63,
+            "inventoryStatus": "INSTOCK",
+            "rating": 3
+        }
+    ]
+}
