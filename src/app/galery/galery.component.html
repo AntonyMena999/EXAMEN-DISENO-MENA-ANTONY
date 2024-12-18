@@ -21,15 +21,19 @@
 <br>
 <h1>LO MÁS VENDIDO!</h1>
 <div class="card flex justify-content-center p-3">
-  <p-galleria [responsiveOptions]="responsiveOptions" [value]="images" (someEvent)="onValueChange($event)"
-      [containerStyle]="{ 'max-width': '640px' }" [numVisible]="5">
-      <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" style="width: 100%;" />
-      </ng-template>
-      <ng-template pTemplate="thumbnail" let-item>
-          <div class="grid grid-nogutter justify-content-center">
-              <img [src]="item.thumbnailImageSrc" />
-          </div>
-      </ng-template>
-  </p-galleria>
-</div>
+    <p-galleria 
+        [value]="images" 
+        [containerStyle]="{ 'max-width': '100%' }" 
+        [numVisible]="5">
+        
+        <ng-template pTemplate="item" let-item>
+            <img [src]="item.itemImageSrc" style="width: 100%; height: 200px; object-fit: cover;" />
+        </ng-template>
+        
+        <ng-template pTemplate="thumbnail" let-item>
+            <img [src]="item.thumbnailImageSrc" style="width: 100%; height: 50px; object-fit: cover;" />
+        </ng-template>
+    </p-galleria>
+  </div>
+  
+  
